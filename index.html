@@ -236,7 +236,7 @@
       <h1 class="title is-3 has-text-centered" style="margin-bottom: 30px;">Can We Identify Sub-tasks Similar to the Expert-Labeled Ones?</h1>
       <!-- Qualitative results image -->
       <img src="static/images/qualitative.png" alt="Qualitative results showing RDD performance" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-justified">
         Qualitative results of RDD and <a href="https://arxiv.org/pdf/2310.08581" target="_blank" style="color: #3273dc; text-decoration: underline;">UVD</a> when decomposing real-world (AgiBotWorld) and simulation (RLBench and LIBERO) benchmarks. RDD robustly identifyies sub-tasks that are close to expert sub-task decompositions, while UVD fails to locate keyframes precisely.
       </h2>
     </div>
@@ -253,7 +253,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            To tackle long-horizon tasks, recent hierarchical vision-language-action (VLAs) frameworks typically employ vision-language model (VLM)-based planners to decompose complex manipulation tasks into simpler sub-tasks that low-level visuomotor policies can easily handle. Typically, the VLM planner is finetuned to learn to decompose a target task. This finetuning requires target task demonstrations segmented into sub-tasks by either human annotation or heuristic rules. However, the heuristic subtasks can deviate significantly from the training data of the visuomotor policy, which degrades task performance. 
+            To tackle long-horizon tasks, recent hierarchical vision-language-action (VLAs) frameworks employ vision-language model (VLM)-based planners to decompose complex manipulation tasks into simpler sub-tasks that low-level visuomotor policies can easily handle. Typically, the VLM planner is finetuned to learn to decompose a target task. This finetuning requires target task demonstrations segmented into sub-tasks by either human annotation or heuristic rules. However, the heuristic subtasks can deviate significantly from the training data of the visuomotor policy, which degrades task performance. 
 To address these issues, we propose a <strong>R</strong>etrieval-based <strong>D</strong>emonstration <strong>D</strong>ecomposer <strong>RDD</strong> that automatically decomposes demonstrations into sub-tasks by aligning the visual features of the decomposed sub-task intervals with those from the training data of the low-level visuomotor policies. Our method demonstrates superior performance compared to the state-of-the-art sub-task decomposer on both simulation and real-world demonstrations, showcasing robustness across various settings.
           </p>
         </div>
